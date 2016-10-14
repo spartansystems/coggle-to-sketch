@@ -1,0 +1,16 @@
+{
+  "name" : "Coggle-To-Sketch",
+  "description" : "Export Coggle mind maps to Sketch",
+  "author" : "Spartan",
+  "authorEmail" : "develop@spartansystems.co",
+  "version" : "0.1",
+  "identifier" : "com.spartan.sketch.coggle",
+  "commands" : [
+    {
+      "name" : "Select Coggle to Import",
+      "script" : "coggle.js",
+      "handlers": "onRun",
+      "identifier" : "com.spartansystems.sketch.runscriptidentifier"
+    }
+  ]
+}
